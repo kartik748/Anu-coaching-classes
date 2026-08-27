@@ -11,27 +11,20 @@ import Footer from "./components/Footer"
 import FloatingWhatsapp from "./components/FloatingWhatsapp"
 
 function App() {
-  // return (
-  //   <>
-  //     <Navbar />
-  //     <Hero />
-  //     <Stats />
-  //     <About />
-  //     <Courses />
-  //     <Faculty />
-  //     <Testimonials />
-  //     <Contact />
-  //     <Footer />
-  //     <FloatingWhatsapp />
-  //   </>
-  // )
   return (
-  <>
-    <h1>Anu Coaching Classes 🚀</h1>
-
-    {/* your existing website code */}
-  </>
-);
+    <>
+      <Navbar />
+      <Hero />
+      <Stats />
+      <About />
+      <Courses />
+      <Faculty />
+      <Testimonials />
+      <Contact />
+      <Footer />
+      <FloatingWhatsapp />
+    </>
+  )
 }
 
 export default App
